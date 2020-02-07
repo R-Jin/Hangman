@@ -49,8 +49,8 @@ while run:
 
             if "".join(h_word) == word:
                 guessed = True
+                print("Congratulations you guessed the word:\n")
                 print("".join(h_word) + "\n")
-                print("Congratulations you guessed the word!\n")
                 again = input("Do you want to play again? y/n: ").lower()
 
                 if again == "n":
