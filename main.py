@@ -1,3 +1,4 @@
+
 gd_word = []
 run = True
 life = 0
@@ -14,7 +15,7 @@ man = {0: "",
 
 while run:
     word = input("Type a word that should be guessed: ").lower()
-    print("\n" * 15)
+    print("\n" * 30)
 
     if word.isalpha():
         guessed = False
