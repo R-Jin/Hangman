@@ -12,3 +12,5 @@ $ cd (to the path where you cloned the repository)
 $ python main.py
 ```
 One player comes up with the word and the other player tries to guess the word.
+
+GLHF :)
