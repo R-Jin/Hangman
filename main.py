@@ -14,6 +14,7 @@ man = {0: "",
 
 while run:
     word = input("Type a word that should be guessed: ").lower()
+    print("\n" * 15)
 
     if word.isalpha():
         guessed = False
@@ -66,6 +67,7 @@ while run:
                 guessed = True
                 print(man[life])
                 print("You did not guess the word...")
+                print(word)
                 again = input("Do you want to play again? y/n: ").lower()
                 if again =="n":
                     run = False
