@@ -1,7 +1,7 @@
 # Hangman 
 Hangman game written in python that is played in the terminal
 
-![Imgur image](https://i.imgur.com/SuSqmw3.gif)
+![Imgur image](https://i.imgur.com/lsQr6YA.gif)
 
 # To play
 Requires python3 
